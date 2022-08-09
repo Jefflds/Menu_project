@@ -1,0 +1,24 @@
+@keyframes animation_1 {
+    from {background-color: white;}
+    to {background-color: #FFEDD5;}
+}
+
+@keyframes animation_2 {
+    from {color: black; font-size: 28px;}
+    to {color:#995000; font-size: 30px;}
+}
+
+@keyframes animation_3 {
+    from {background-color: white; color: #FED7AA; font-size: 125%;}
+    to {background-color: #FED7AA; color: black; font-size: 150%;}
+}
+
+@keyframes animation_4 {
+    from {max-width: 250px;}
+    to {max-width: 300px;}
+}
+
+@keyframes animation_5 {
+    from {color: transparent; font-weight: normal;}
+    to {color:black; font-weight: bold;}
+}

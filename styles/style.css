@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+Body {
+    background-color: #FFEDD5;
+    animation-name: animation_1;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    text-align: center;
+    padding: 32px 0;
+}
+
+header,
+section {
+    max-width: 300px;
+    margin: 0 auto 0 auto;
+    animation-name: animation_4;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    
+}
+
+header h1 {
+    margin-bottom: 4px;
+    font-size: 30px;
+    font-family: 'Roboto Serif', serif;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #995000;
+    animation-name: animation_2;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+section h2 {
+    background-color: #FED7AA;
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px;
+    animation-name: animation_3;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ul li {
+    margin-bottom: 16px;
+    display: flex;
+}
+
+li .details {
+    max-width: 240px;
+}
+
+.details h3 {
+    margin-bottom: 8px;
+}
+
+li .description {
+    max-width: 250px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.price {
+    animation-name: animation_5;
+    animation-duration: 2s;
+    font-weight: bold;
+}
